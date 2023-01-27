@@ -1,8 +1,8 @@
 let typed = new Typed("#js-typed-text", {
     strings: [
         "jestem bombel.",
-        "uczę się tworzenia stron.",
-        "strona w trakcie tworzenia.",
+        "nie kocham nikogo pzdr",
+        "$icarios bang bang",
     ],
     typeSpeed: 100,
     backSpeed: 50,
