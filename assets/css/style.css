@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html{
+    font-size: 62.5%;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    color: #fff;
+    background-color: #111;
+}
+
+.general__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh; 
+    padding: 0 20px;
+}
+
+.general__title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 700px){
+    .general__title{
+        font-size: 3rem;
+    }
+}
+
+.general__text{
+    color: rgb(88, 100, 228);
+}
