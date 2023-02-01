@@ -1,6 +1,6 @@
 let typed = new Typed("#js-typed-text", {
     strings: [
-        "nie jestem bombel.",
+        "jestem bombel.",
         "uczę się tworzenia stron.",
         "strona w trakcie tworzenia.",
     ],
