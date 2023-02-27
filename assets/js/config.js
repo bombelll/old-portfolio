@@ -1,5 +1,5 @@
-import projects from "../config/projects.json" assert {type: 'json'};
-import contact from "../config/contact.json" assert {type: 'json'};
+import projects from "../config/projects.json";
+import contact from "../config/contact.json";
 
 const firstBoxImage = document.getElementById('js-firstbox-image');
 const firstBoxTitle = document.getElementById('js-firstbox-title');
