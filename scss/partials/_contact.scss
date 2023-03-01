@@ -1,0 +1,54 @@
+.contact{
+    margin-top: 100px;
+}
+
+.contact__wrapper{
+    max-width: $maxWidth;
+    margin: $margin;
+    padding: $padding;
+}
+
+.contact__title{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    margin-bottom: 50px;
+
+    h2{
+        color: $colorPurple;
+    }
+}
+
+.contact__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    row-gap: 50px;
+
+    .contact-mail,
+    .contact-discord {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-discord i{
+        color: 	#7289DA;
+    }
+
+    .contact-mail {
+        i {
+            color: $colorPurple
+        }
+
+        span {
+            cursor: pointer;
+        }
+    }
+
+    i{
+        font-size: 5rem;
+        margin-bottom: 10px;
+    }
+}

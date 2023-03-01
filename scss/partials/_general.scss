@@ -1,0 +1,24 @@
+.general{
+    margin-top: 100px;
+}
+
+.general__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    max-width: $maxWidth;
+    margin: $margin;
+    padding: $padding;
+    text-align: center;
+    
+    @media only screen and (min-width: $breakpoint-laptop){
+        flex-direction: row;
+        text-align: start;
+    }
+}
+
+.general__img{
+    max-width: 500px;
+}
