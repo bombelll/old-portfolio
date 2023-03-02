@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "image": "/projects/portfolio-project.png",
+            "title": "Portfolio",
+            "language": "HTML",
+            "websiteURL": "https://www.bombel.top",
+            "githubURL": "https://github.com/bombelll/portfolio"
+        },
+        {
+            "image": "/projects/form-project.png",
+            "title": "Form",
+            "language": "JavaScript",
+            "websiteURL": "https://register-form-beryl.vercel.app/",
+            "githubURL": "https://github.com/bombelll/register-form"
+        },
+        {
+            "image": "/projects/empty-project.png",
+            "title": "Name",
+            "language": "Language",
+            "websiteURL": "#",
+            "githubURL": "#"
+        }
+    ]
+}

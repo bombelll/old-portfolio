@@ -1,0 +1,120 @@
+.main-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $maxWidth;
+    padding: 3rem $padding;
+    margin: $margin;
+    font-size: 1.7rem;
+
+    .main-header__logo {
+        z-index: 101;
+    }
+}
+
+.main-header__nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    padding-top: 10em;
+    transition: left .5s;
+    z-index: 100;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        font-size: 1.8rem;
+        list-style-type: none;
+
+        > li {
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2.5px;
+                bottom: 0px;
+                left: 0;
+                transform: scaleX(0);
+                transform-origin: bottom right;
+                background-color: $colorPurple;
+                border-radius: 999px;
+                transition: transform 0.35s;
+            }
+
+            &:hover:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+        }
+    }
+}
+
+.main-header__nav.active{
+    left: 0;
+}
+
+.main-header__hamburger {
+    display: block;
+    position: absolute;
+    right: 33px;
+    top: 28px;
+    width: 40px;
+    height: 40px;
+    z-index: 101;
+
+    &::after, &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: $colorPurple;
+        border-radius: 15px;
+        transition: all .5s;
+    }
+
+    &::after {
+        top: 15px;
+    }
+
+    &::before {
+        top: 30px;
+    }
+}
+
+.main-header__hamburger.active{
+    &::after {
+        transform: translateY(2px) rotate(45deg);
+    }
+
+    &:before {
+        transform: translateY(-13px) rotate(-45deg);
+    }
+}
+
+@media only screen and (min-width: $breakpoint-tablet){
+    .main-header__nav{
+        position: relative;
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        background: none;
+        padding-top: 0;
+
+        ul{
+            flex-direction: row;
+        }
+    }
+
+    .main-header__hamburger{
+        display: none;
+    }
+}

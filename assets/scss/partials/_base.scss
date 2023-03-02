@@ -1,0 +1,65 @@
+@import "/assets/scss/partials/_vars";
+
+*, :after, :before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: $fontRegular;
+}
+
+body {
+    overflow: hidden;
+    overflow-x: hidden !important;
+    font-size: 1rem;
+    background-color: #111;
+    color: #fff;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+
+::-webkit-scrollbar-thumb {
+    background: $colorPurple;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $colorPurpleHover;
+}
+
+::selection {
+    background-color: $colorPurple;
+    color: #fff;
+}
+
+.hidden {
+    overflow: hidden !important;
+}
