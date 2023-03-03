@@ -6,6 +6,18 @@
     max-width: $maxWidth;
     margin: $margin;
     padding: $padding;
+
+    .projects__buttons{
+
+        .btn{
+            padding: 1.7rem 2rem !important;
+            font-size: 1.5rem;
+
+            i{
+                margin-left: 10px;
+            }
+        }
+    }
 }
 
 .projects__title{

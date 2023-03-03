@@ -20,13 +20,16 @@ setTimeout(() => {
     document.body.style.overflow = 'auto';
 }, 1500);
 
-
 const alertFadeOut = () => {
     gsap.to('.js-box', {
         opacity: 0,
         display: 'none',
     })
 };
+
+setTimeout(() => {
+    document.querySelector('.loader').remove();
+}, 4000);
 
 setTimeout(alertFadeOut, 12000);
 disableAlertBtn.addEventListener('click', alertFadeOut);
