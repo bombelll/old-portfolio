@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="icon" href="/about/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bombel.top.pl">
+    <meta name="og:title" content="⛄ bombel's portfolio">
+    <meta property="og:description"
+        content="Hi! I'm bombel and my hobby is programming. My big dream is to become a web developer in the future.">
+    <meta property="og:image" content="/about/logo.png">
+    <meta name="theme-color" content="#5864e4">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+        *,
+        ::after,
+        ::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+
+        .container__content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container__title {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+    </style>
+    <script type="module">
+        let typed = new Typed("#js-info", {
+            strings: [
+                "404, page not found"
+            ],
+            typeSpeed: 55
+        })
+
+        setTimeout(() => {
+            window.location.href = "https://bombel.top"
+        }, 5000);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__content">
+            <h1 class="container__title">
+                <span id="js-info"></span>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>
