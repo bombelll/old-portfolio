@@ -1,0 +1,16 @@
+.container {
+    background-color: #000;
+
+    .container__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: $font404;
+
+        .container__title {
+            font-size: 3rem;
+            font-weight: 300;
+        }
+    }
+}
