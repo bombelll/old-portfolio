@@ -8,6 +8,9 @@
     padding: $padding;
 
     .projects__buttons{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
 
         .btn{
             padding: 1.7rem 2rem !important;
