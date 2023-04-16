@@ -110,6 +110,12 @@
                 background-color: $colorJS;
             }
         }
+
+        &:nth-child(3){
+            .projects__box-info .language{
+                background-color: $colorJS;
+            }
+        }
     }
 }
 
