@@ -16,7 +16,7 @@
         },
         {
             "image": "/projects/guess-the-number-project.png",
-            "title": "Guess The Number",
+            "title": "Game",
             "language": "JavaScript",
             "websiteURL": "https://guess-the-number-gold.vercel.app",
             "githubURL": "https://github.com/bombelll/guess-the-number"
