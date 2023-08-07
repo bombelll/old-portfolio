@@ -8,7 +8,7 @@
 
 #### Clone Repository
 ```console
-git clone https://github.com/bombelll/portfolio.git
+git clone https://github.com/bombelll/old-portfolio
 ```
 
 #### Install Node Package
